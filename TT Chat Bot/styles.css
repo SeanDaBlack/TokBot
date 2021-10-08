@@ -1,0 +1,23 @@
+.header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #555;
+  }
+  
+  .header h1 {
+    float: right;
+    top: 18px;
+    left: 10px;
+  }
+  #tit h1{
+      padding-top: 10px;
+      padding-left: 5px;
+  }
+  #tit p{
+      padding-left: 5px;
+  }
+  #tut{
+    padding-left: 10px;
+    padding-right: 10px;
+}

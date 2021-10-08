@@ -1,0 +1,28 @@
+{
+    "name": "TikTok ChatBot",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "A Chatbot for TikTok live that can be used to play a multitude of sounds. More features soon to come.",
+    "icons": {
+    "512": "src/logosm.png"
+    },
+    "web_accessible_resources": [
+        "sounds/*",
+        "sounds/*.mp3"
+    ],
+    "content_scripts": [
+    
+    {
+        "matches" : ["https://www.tiktok.com/*"],
+        "js" : ["content.js"]
+        
+    }
+    ],
+    
+    
+    "browser_action": {
+    "default_icon": "src/logo.png",
+    "default_popup": "popup.html",
+    "default_title": "TikTok Chat Bot"
+    }
+  }
